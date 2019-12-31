@@ -10,7 +10,7 @@ class NewsCard extends Component {
     render() {
         return (
             <div className="news-card" onClick={this.handleClick.bind(this)}>
-                <span className="news-title">{this.props.news.title}</span>
+                <span className="news-card-title">{this.props.news.title}</span>
             </div>
         )
     }

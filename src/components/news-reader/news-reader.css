@@ -5,16 +5,25 @@
     color: white;
 }
 
-.news-title {
-    font-size: large;
+.news-reader-title {
+    font-size: x-large;
     font-weight: bold;
 }
 
-.news-content {
+.news-reader-content {
     font-size: normal;
+    font-style: italic;
 }
 
-.news-image {
+.news-reader-url {
+    color: white;
+}
+
+.news-reader-url:hover {
+    text-decoration: none;
+}
+
+.news-reader-image {
     max-width: 800px;
     max-height: 800px;
 }

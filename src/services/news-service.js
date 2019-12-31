@@ -8,11 +8,14 @@ class NewsService {
 
         const news = await newsResponse.json()
 
+        console.log(news)
+
         return news.articles.map(n => {
             return {
                 title: n.title,
                 content: n.content,
-                image: n.urlToImage
+                image: n.urlToImage,
+                url: n.url
             }
         })
     }

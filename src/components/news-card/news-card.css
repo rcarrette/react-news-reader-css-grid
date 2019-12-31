@@ -1,5 +1,6 @@
 .news-card {
     height: 100%;
+    width: 75%;
     background-color: red;
     border: 1px solid black;
 }

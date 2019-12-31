@@ -9,8 +9,21 @@
 
 .app-header {
   background-color: #222;
-  height: 150px;
-  padding: 20px;
+  height: 100px;
+  padding: 30px;
+  color: white;
+}
+
+.app-watermark {
+  opacity: 0.5;
+}
+
+.app-watermark > a:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.app-watermark > a, a:visited, a:focus {
   color: white;
 }
 
@@ -27,7 +40,7 @@
   display: grid;
   justify-items: center;
   height: 150px;
-  padding: 20px;
+  padding: 30px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-gap: 10px;

@@ -1,0 +1,14 @@
+.news-reader {
+    background-color: lightgreen;
+    height: auto;
+    padding: 20px;
+}
+
+.news-title {
+    font-size: large;
+    font-weight: bold;
+}
+
+.news-content {
+    font-size: normal;
+}

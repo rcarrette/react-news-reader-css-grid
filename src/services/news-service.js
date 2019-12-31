@@ -11,7 +11,8 @@ class NewsService {
         return news.articles.map(n => {
             return {
                 title: n.title,
-                content: n.content
+                content: n.content,
+                image: n.urlToImage
             }
         })
     }

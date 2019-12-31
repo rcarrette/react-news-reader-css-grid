@@ -9,6 +9,8 @@ class NewsReader extends Component {
                 <p className="news-title">{this.props.selectedNews.title}</p>
                 
                 <p className="news-content">{this.props.selectedNews.content}</p>
+
+                <img src={this.props.selectedNews.image} className="news-image" alt="news-art"></img>
             </div>
         )
     }

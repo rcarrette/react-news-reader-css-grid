@@ -1,7 +1,8 @@
 .news-reader {
-    background-color: lightgreen;
     height: auto;
     padding: 20px;
+    background-color: #222;
+    color: white;
 }
 
 .news-title {
@@ -11,4 +12,9 @@
 
 .news-content {
     font-size: normal;
+}
+
+.news-image {
+    max-width: 800px;
+    max-height: 800px;
 }
